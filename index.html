@@ -1,18 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Leaflet.AccuratePosition example</title>
+	<title>FEMA REGION VI HWM Collector</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<!-- Leaflet -->
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	
+		<!-- Accurate Position Plugin -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="script/Leaflet.AccuratePosition.js"></script>
 
-	<!-- Accurate Position Plugin -->
-	<link rel="stylesheet" href="style.css">
-	<script src="Leaflet.AccuratePosition.js"></script>
 </head>
 <body>
 	<div id="map"></div>
@@ -59,6 +60,9 @@
 			maxWait: 10000,
 			desiredAccuracy: 20
 		});
+
+
 	</script>
+
 </body>
 </html>
